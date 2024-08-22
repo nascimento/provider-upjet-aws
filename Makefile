@@ -105,7 +105,7 @@ $(UPTEST_LOCAL):
 # ====================================================================================
 # Setup Images
 
-REGISTRY_ORGS ?= xpkg.upbound.io/upbound
+REGISTRY_ORGS ?= xpkg.upbound.io/nascimento
 IMAGES = provider-aws
 BATCH_PLATFORMS ?= linux_amd64,linux_arm64
 export BATCH_PLATFORMS := $(BATCH_PLATFORMS)
